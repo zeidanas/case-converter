@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <div class="left-container">
+            <div class="left-inner-container">
+                <h2>Instructions</h2>
+                <p>To use the case converter, follow these simple steps:</p><br>
+                <ul>
+                    <li>Enter a name for the file.</li>
+                    <li>Enter your text into the large text box.</li>
+                    <li>Click the 'Upper Case' button to capitalize every letter in the text.</li>
+                    <li>Click the 'Lower Case' button to lower case every letter in the text.</li>
+                    <li>Click the 'Proper Case' button to capitalize the first letter of each word in the text.</li>
+                    <li>Click the 'Sentence Case' button to capitalize the first letter of the first word of each sentence in the text.</li>
+                    <li>Click the 'Save Text File' button to save the text in a text file.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-inner-container">
+                <h2 class="lg-view">Case Converter</h2>
+                <h2 class="sm-view">Case Converter</h2>
+                <input type="text" placeholder="File Name" />
+                <textarea rows="18" placeholder="Enter your text here..."></textarea>
+                <div class="button-container">
+                    <button id="upper-case">Upper Case</button>
+                    <button id="lower-case">Lower Case</button>
+                    <button id="proper-case">Proper Case</button>
+                    <button id="sentence-case">Sentence Case</button>
+                    <button id="save-text-file">Save Text File</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
