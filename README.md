@@ -15,6 +15,9 @@ Case Converter is user-friendly and easy to use, so you can quickly and easily p
 * CSS3
 * JavaScript
 
+## Live Demo
+* [GitHub Pages — Case Converter](https://zeidanas.github.io/case-converter/)
+
 ## Acknowledgments
 This project was built following the instructions provided by the JetBrains Academy "Frontend Core" course on Hyperskill;
 the instructions did not provide any of the code. You can access the project description at the page below:
